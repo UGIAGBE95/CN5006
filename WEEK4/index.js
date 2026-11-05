@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const MONGO_URI = '';
+const MONGO_URI = 'mongodb+srv://ugiagbeiroghamavera_db_user:Docklands25@cluster0.fe5snbv.mongodb.net/';
 
 const PersonSchema = new mongoose.Schema({
   name: {

@@ -12,7 +12,7 @@ const {
   updateManyPersons,
 } = require("./Week4lab");
 
-const MONGO_URI = "";
+const MONGO_URI = 'mongodb+srv://ugiagbeiroghamavera_db_user:Docklands25@cluster0.fe5snbv.mongodb.net/';
 
 mongoose
   .connect(MONGO_URI)
